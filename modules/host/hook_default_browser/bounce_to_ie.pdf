@@ -46,7 +46,7 @@ endobj
 <<
 	/Length 1708
 >>stream
-app.launchURL("<hookURI>",true);	 
+app.launchURL("<hookURI>",true);
 endstream
 endobj
 7 0 obj

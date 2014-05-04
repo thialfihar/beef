@@ -47,7 +47,7 @@ module BeEF
             Thread.new do
               sleep(2)
 
-              # antisnatchor: RubyDNS is already implemented with EventMachine 
+              # antisnatchor: RubyDNS is already implemented with EventMachine
               run_server_block(@address, @port)
             end
         end

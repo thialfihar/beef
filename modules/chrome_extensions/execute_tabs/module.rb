@@ -17,6 +17,6 @@ class Execute_tabs < BeEF::Core::Command
     content['Return'] = @datastore['return']
     save content
   end
-  
+
 end
 

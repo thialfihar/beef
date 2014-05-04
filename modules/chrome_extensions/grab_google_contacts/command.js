@@ -13,7 +13,7 @@ beef.execute(function() {
 			csv.send();
 			return csv.responseText
 		}
-		
+
 		function toolContact(v) {
 		 	var re = new RegExp(regContacts);
 		 	var m = re.exec(v);

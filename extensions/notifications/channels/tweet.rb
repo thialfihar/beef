@@ -11,7 +11,7 @@ module BeEF
 module Extension
 module Notifications
 module Channels
-  
+
   class Tweet
 
     #
@@ -35,7 +35,7 @@ module Channels
       end
     end
   end
-  
+
 end
 end
 end

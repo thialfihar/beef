@@ -8,7 +8,7 @@ module Extension
 module Console
 
   extend BeEF::API::Extension
-  
+
   #
   # Sets the information for that extension.
   #

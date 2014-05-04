@@ -5,7 +5,7 @@
 #
 module BeEF
 module Core
-  
+
 end
 end
 
